@@ -68,3 +68,8 @@ function incrementByThreeAway () {
         scoreAway.textContent = countAway
     }
 }
+
+function reset (){
+    scoreAway.textContent = `00`
+    scoreHome.textContent = `00`
+}

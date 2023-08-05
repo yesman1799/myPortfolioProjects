@@ -59,3 +59,17 @@ p{
     font-size: large;
     height: 35px;
 }
+
+.mid-column{
+    display: flex;
+    align-items: center;
+}
+
+.reset{
+    background-color: darkred;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: large;
+    border: 3px black solid;
+    border-radius: 5px;
+}
