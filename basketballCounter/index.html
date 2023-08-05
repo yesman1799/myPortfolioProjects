@@ -7,7 +7,30 @@
   <title>Basketball Counter</title>
 </head>
 <body>
-  
+  <div class="container">
+    <div class="home-score">
+      <h1>HOME</h1>
+      <div class="score-counter">
+        <p id="score-home" class="score">00</p>
+      </div>
+      <div class="increment">
+        <button class="btn" onclick="incrementByOneHome()">+1</button>
+        <button class="btn" onclick="incrementByTwoHome()">+2</button>
+        <button class="btn" onclick="incrementByThreeHome()">+3</button>
+      </div>
+    </div>
+    <div>
+      <h1>AWAY</h1>
+      <div class="score-counter">
+        <p id="score-away" class="score">00</p>
+      </div>
+      <div class="increment">
+        <button class="btn" onclick="incrementByOneAway()">+1</button>
+        <button class="btn" onclick="incrementByTwoAway()">+2</button>
+        <button class="btn" onclick="incrementByThreeAway()">+3</button>
+      </div>
+    </div>
+  </div>
   <script src="script.js"></script>
 </body>
 </html>
