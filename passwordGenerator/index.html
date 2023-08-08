@@ -1,9 +1,38 @@
-<html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <h1></h1>
-        <script src="index.js"></script>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="content-up">
+            <div class="headline-text">
+                <h1 class="heading">
+                    Generate a <br>
+                    <span class="green">
+                        secure password
+                        </span>
+                </h1>
+                <p class="subline">Never use an insecure password again.</p>
+                <button class="btn" onclick="generateRandomPassword()">Generate passwords</button>
+            </div>
+        </div>
+        
+        <div class="content-down">
+            <div class="password-field" id="text-left" ></div>
+            <div class="password-field" id="text-right"></div>
+        </div>
+    </div>
+   
+    
+
+    <script src="index.js"></script>
+</body>
 </html>

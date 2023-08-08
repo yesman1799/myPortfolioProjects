@@ -1,3 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body{
     margin: 0;
+    padding: 0;
+    
+    color: aliceblue;
+    font-family: 'Roboto' ,Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 750px;
+    height: 650px;
+    border: 2px white solid;
+    margin: 30px auto;
+    padding: 45px;
+    background-color: #1F2937;    
+}
+
+.heading{
+    font-family: 'Karla', sans-serif;
+    font-size: 40px;
+    line-height: 1;
+    color: aliceblue;
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+
+.heading span{
+    color: green;
+}
+
+.subline{
+    color: aliceblue;
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.content-up{
+    width: 700px;
+    border-bottom: 2px solid white;
+}
+
+.btn{
+    background-color: green;
+    color: white;
+    width: 200px;
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.content-down{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.password-field{
+    background-color: red;
+    width: 300px;
+    height: 45px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    border-radius: 10px;
 }
