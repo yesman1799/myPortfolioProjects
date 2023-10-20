@@ -33,7 +33,7 @@ h1.time {
 }
 
 div#crypto {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
 }
 
 div#crypto > p {
@@ -68,10 +68,11 @@ p.weather-city {
     text-align: right;
     margin: 0;
     margin-top: -10px;
+    font-size: 1.4rem;
 }
 
 p.weather-temp {
     margin: 0;
-    font-size: 1.7rem;
+    font-size: 2rem;
     margin-left: -10px;
 }
