@@ -71,3 +71,8 @@ p {
 - Visual Hierarchy
 
 */
+
+@media screen and (max-width: 400px){
+    body{background: red;}
+
+}
